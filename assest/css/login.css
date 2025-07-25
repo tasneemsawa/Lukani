@@ -1,0 +1,162 @@
+.auth-container {
+    overflow: hidden;
+}
+
+
+
+.login .nav-pills .nav-link {
+    color: #6c757d;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border-radius: 0;
+}
+
+.login .nav-pills .nav-link.active {
+    background: var(--mainColor);
+    color: white;
+    box-shadow: none;
+}
+
+.login .nav-pills .nav-link:hover:not(.active) {
+    background: #e9ecef;
+}
+
+
+
+.login .form-floating>.form-control {
+    transition: all 0.3s ease;
+}
+
+.login .form-floating>.form-control:focus {
+    border-color: var(--mainColor);
+    box-shadow: none
+}
+
+
+
+
+.login .btn-primary {
+    background: var(--mainColor);
+    /* border-radius: 10px; */
+    padding: 12px 30px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.login .btn-primary:hover {
+    background-color: #222;
+    transform: translateY(-2px);
+}
+
+
+
+.login .social-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.3s ease;
+    font-size: 18px;
+    background-color:var(--mainColor)
+}
+.login .social-btn i{
+margin: auto;
+}
+
+.login .social-btn:hover {
+    transform: translateY(-3px);
+    background-color:#222;
+    color: white;
+}
+
+
+
+
+
+.login .divider {
+    text-align: center;
+    margin: 25px 0;
+    position: relative;
+    color: #6c757d;
+}
+
+.login .divider::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: #dee2e6;
+    z-index: 1;
+}
+
+.login .divider span {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 0 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.login  .form-check {
+    margin: 20px 0;
+}
+
+.login  .form-check-input:checked {
+    background-color: var(--mainColor);
+    border-color: var(--mainColor);
+}
+
+.login  .forgot-password {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login  .forgot-password a {
+    color: var(--mainColor);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login  .forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.login  .password-strength {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.strength-bar {
+    height: 4px;
+    border-radius: 2px;
+    background: #e9ecef;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.strength-fill {
+    height: 100%;
+    transition: all 0.3s ease;
+    width: 0%;
+}
+
+.strength-weak {
+    background: #dc3545;
+    width: 25%;
+}
+
+.strength-fair {
+    background: #ffc107;
+    width: 50%;
+}
+
+.strength-good {
+    background: #28a745;
+    width: 75%;
+}
+
+.strength-strong {
+    background: #20c997;
+    width: 100%;
+}

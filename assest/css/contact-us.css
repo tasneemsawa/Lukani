@@ -1,0 +1,38 @@
+
+.contact-us  {
+    font-size: 14px;
+}
+
+.contact-us  a:hover{
+ color: var( --mainColor);
+}
+.contact-us  .form-control:focus {
+    box-shadow: none;
+}
+.contact-us  h3{
+    font-size: 21px;
+    font-weight: 500;
+}
+
+
+
+
+.contact-us .tell-us label
+{
+    font-size: 14px;
+
+    font-weight: 500;
+}
+
+
+
+
+
+.contact-us .tell-us .form-control{
+border-radius: 0;
+
+}
+
+.contact-us .tell-us .btn-send{
+  border-radius: 4px;  
+}

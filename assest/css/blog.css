@@ -1,0 +1,115 @@
+
+/* blog-view  search*/
+
+.blog-view  .search-btn {
+    background-color: #222222;
+ }
+ .blog-view .search-btn:hover {
+    background-color:var(--mainColor);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* blog-view  search*/
+
+/* blog-view  comment*/
+
+
+.blog-view .comment-item img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+.blog-view .comment-author,.comment-text {
+    color: #222222;
+}
+
+.blog-view .comment-author .author-name {
+    color: #8bc34a;
+}
+
+/* blog-view  comment*/
+
+/* blog-view  recent-post*/
+
+.blog-view .recent-post-thumb {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+
+/* blog-view  recent-post*/
+/* blog-post-card*/
+
+
+.blog-view .blog-post-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-view .blog-post-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.blog-view .blog-post-image {
+    height: 550px;
+}
+
+
+.blog-view  .blog-post-title i{
+color: var(--mainColor);}
+
+.blog-view  .blog-post-title:hover {
+    color:var(--mainColor);
+}
+
+
+.blog-view .blog-post-meta a {
+    color:var(--mainColor)
+}
+
+.blog-view .blog-post-meta a:hover {
+    text-decoration: underline;
+}
+
+
+
+.blog-view .read-more-btn {
+    background-color: #333333;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.blog-view .read-more-btn:hover {
+    background-color:var(--mainColor);
+}
+
+
+
+
+
+
+/* blog-post-card*/
+
+
+
+
+/* blog-view  pagination*/
+.blog-view .pagination  li a{
+    background-color: #f1f1f1;
+    border-radius: 3px;
+color: #222222;
+}
+
+.blog-view .pagination li .active {
+    background-color: var(--mainColor);
+    border-radius: 3px;
+    color: #ffffff;
+    border-color: var(--mainColor);
+}
+/* blog-view  pagination*/

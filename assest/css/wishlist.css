@@ -1,0 +1,81 @@
+/* wishlist */
+.wishlist thead {
+    background-color: #e1e1e1;
+    border-bottom: 3px solid var(--mainColor);
+    
+}
+.wishlist .delete-btn:hover i{
+color: var(--mainColor);    
+}
+
+.wishlist th {
+    padding: 12px 15px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 16px;
+}
+
+.wishlist td {
+    padding: 20px 15px;
+    text-align: center;
+    border-bottom: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+}
+
+
+.wishlist .delete-btn {
+    background: none;
+    border: none;
+    padding: 5px;
+    transition: color 0.3s ease;
+}
+
+
+.wishlist .product-image {
+    width: 80px;
+    height: 80px;
+}
+
+.wishlist  .product-name {
+    font-size: 14px;
+}
+
+.wishlist  .price {
+    font-weight: 500;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.wishlist .total {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.wishlist .quantity-text {
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+/* wishlist */
+
+
+.wishlist  .add-cart {
+    background-color: var(--mainColor);
+
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.wishlist  .add-cart:hover {
+    background-color: #000000;
+}
+
+.share-on .share-title{
+    font-size: 18px;
+    font-weight: 500;
+}

@@ -1,0 +1,655 @@
+/* font Rubik */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+:root {
+    --mainColor: #79a206;
+    --mainFont: "Rubik", sans-serif;
+    --secondaryFont: "Lora", serif;
+
+}
+
+.specialBlack {
+    color: #222222;
+}
+
+
+body {
+    font-family: var(--mainFont);
+
+}
+
+a {
+    text-decoration: none;
+    color: #222222;
+}
+
+li {
+    list-style-type: none
+}
+
+a,
+button,
+img,
+input,
+span {
+    transition: all 0.3s ease 0s;
+}
+
+.margin-bottom-70 {
+    margin-bottom: 70px;
+
+}
+
+.font-size-14 {
+
+    font-size: 14px;
+}
+.font-size-12 {
+
+    font-size: 12px;
+}
+/* ------- header ------- */
+.navbar {
+    position: absolute;
+    z-index: 9;
+    background: none;
+
+}
+
+.navbar .navbar-nav a {
+    font-size: 13px;
+    font-weight: 500;
+    color: #222222;
+}
+
+.navbar .logo .logo-img {
+    width: 150px;
+    height: 30px;
+
+}
+
+.navbar .navbar-nav a.active {
+    color: var(--mainColor);
+}
+
+.navbar .navbar-nav a:hover {
+    color: var(--mainColor);
+}
+
+
+.navbar .btn-submit {
+    border: 0px;
+    background-color: transparent;
+}
+
+.navbar svg {
+    fill: #0d0c0c;
+}
+
+.navbar svg:hover {
+    fill: var(--mainColor);
+}
+
+.navbar .form-control {
+    font-size: 14px;
+    font-weight: 400;
+    color: #222222;
+    background-color: transparent;
+    border: 0px;
+
+}
+
+.navbar .form-control:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar .header-actions {
+
+    margin-right: 40;
+}
+
+.navbar .notification {
+    position: relative;
+}
+
+.navbar .notification::after {
+    content: '0';
+    background-color: var(--mainColor);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    color: #ffffff;
+    font-size: 12px;
+    bottom: 10px;
+    text-align: center;
+}
+
+.header {
+    position: relative;
+}
+
+.header .hero-contant {
+    position: absolute;
+    top: 30%;
+    left: 7%;
+}
+
+.header .hero-contant>span {
+    width: 120px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 35px;
+    border-left: 2px solid #000000;
+    padding-left: 8px;
+    display: block;
+}
+
+.header .hero-contant h1 {
+    width: 600px;
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    padding-left: 8px;
+    display: block;
+    text-transform: uppercase;
+    line-height: 70px;
+}
+
+.header .hero-contant h1 span {
+    font-weight: 400;
+}
+
+.header .hero-contant p {
+    font-size: 21px;
+    margin-bottom: 35px;
+
+}
+
+.header .hero-contant .discover-btn {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 20px 55px;
+    background-color: #222;
+    color: #ffffff;
+    border-radius: 30px;
+    display: block;
+    /* text-align: center; */
+    width: 210px;
+
+}
+
+.header .carousel .carousel-control-prev,
+.header .carousel .carousel-control-next {
+    width: 7%
+}
+
+.header .carousel .carousel-control-prev-icon,
+.header .carousel .carousel-control-next-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+
+}
+
+.header .carousel-indicators .carousel-dot {
+
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    margin: 0 3px;
+    transition: .3s;
+    background-color: transparent;
+
+}
+
+.header .carousel-indicators .active {
+
+    background-color: #ffffff;
+
+}
+
+/* ------- header ------- */
+/* ------- main ------- */
+/* ------- lukani-store ------- */
+.lukani-store .title h2 {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: var(--secondaryFont);
+}
+
+.lukani-store {
+    background-image: url('../image/puplic/bkg_top_vogue2.webp');
+    /* Replace with your path */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.lukani-store .title {
+    padding: 0 250px;
+}
+
+/* ------- lukani-store ------- */
+/* ------- shipping ------- */
+.shipping h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 7px;
+    font-family: var(--secondaryFont);
+}
+
+.shipping p {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: var(--mainFont);
+}
+
+.shipping .shipping-item-first-item,
+.shipping .shipping-item-sec-item {
+    border-right: 1px solid #ebebeb
+}
+
+/* ------- shipping ------- */
+
+/* ------- products ------- */
+
+
+.products .card .card-body ul {
+    padding-inline-start: 0;
+
+}
+.products .card .card-body .product_rating li:hover i {
+    color: var(--mainColor) !important;
+
+}
+
+
+
+
+.products .card .card-body span.current_price {
+    color: #79a206;
+}
+
+.products .card .card-body span.old_price {
+    font-size: 12px;
+
+
+}
+
+.products .card .offer {
+    color: #ffffff;
+    background: #DC0F0F;
+    font-size: 14px;
+    height: 24px;
+    text-align: center;
+    display: block;
+    border-radius: 2px;
+    width: 50px;
+    top: 11px;
+    left: 20px;
+}
+
+.products .card .product-img  {
+    position: relative;
+}
+.products .card .product-img .card-action {
+    background: #ffffff;
+    border-radius: 2px;
+    bottom: 0.1px;
+    padding: 10px 15px;
+    height: 45px;
+}
+.products .card .card-action  {
+    display: none;
+
+}
+
+.products .card:hover .card-action {
+    display: block;
+}
+
+
+
+
+
+/* ------- products ------- */
+
+/* ------- customers-says ------- */
+
+.customers-testimonials .title h2 {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: var(--secondaryFont);
+}
+
+.customers-testimonials .testimonial_content {
+    font-size: 17px;
+    font-style: italic;
+    padding: 0 120px;
+
+}
+
+.customers-testimonials .testimonial_author p {
+    color: #222222;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.customers-testimonials .testimonial_author p a {
+    color: #222222;
+
+}
+
+.customers-testimonials .testimonial_author a:hover {
+    color: var(--mainColor);
+}
+
+/* ------- customers-says ------- */
+
+
+
+/* ------- getOffer ------- */
+
+.getOffer .title h2 {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: var(--secondaryFont);
+}
+.brand  .carousel
+{
+
+   padding: 0px 70px;
+
+}
+
+.getOffer .title .offer {
+    color: var(--mainColor);
+}
+
+.getOffer .subscribe_form {
+    border-bottom: 1px solid;
+}
+
+.getOffer .subscribe_form .input-form {
+    color: #222222;
+    border: 0;
+
+}
+
+.getOffer .subscribe_form .input-form::placeholder {
+    color: #222222;
+}
+
+.getOffer .subscribe_form .btn {
+    color: #222222;
+    border: 0;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+.getOffer .subscribe_form .btn:hover {
+    color: var(--mainColor);
+    background-color: transparent;
+
+}
+
+.getOffer .subscribe_form .input-form:focus {
+    border: none;
+    outline: none;
+}
+
+/* ------- getOffer ------- */
+
+
+
+
+
+
+
+/* ------- main ------- */
+/* ------- footer ------- */
+.underline-header {
+    border-bottom: solid 2px;
+}
+
+.footer .top-footer {
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.footer .top-footer h3 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer .top-footer .open-time h3 {
+    margin-bottom: 40px;
+}
+
+.footer .top-footer .open-time .last-p {
+    margin-top: 50px;
+}
+
+.footer .top-footer p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #222222;
+}
+
+.footer .top-footer p span {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footer .top-footer .nav .nav-link {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 0;
+    padding: 5px;
+    color: #222222
+}
+
+.footer .top-footer .nav .nav-link:hover {
+    color: var(--mainColor);
+
+}
+
+.footer .logo .logo-img {
+    width: 150px;
+    height: 30px;
+
+}
+
+.footer .footer_social li a {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    background-color: #f2f2f2;
+    justify-content: center;
+}
+
+.footer .top-footer .footer_social .nav-link:hover {
+    color: #ffffff;
+    background-color: var(--mainColor);
+
+}
+
+.footer .bottom-footer a,
+.footer .bottom-footer span {
+    color: var(--mainColor);
+}
+
+.footer .bottom-footer p {
+    font-size: 14px;
+}
+
+/* ------- footer ------- */
+@media screen and (max-width:1200px) {
+
+    .shipping h3,
+    .shipping p {
+        font-size: 12px;
+    }
+
+    .shipping .shipping-item-sec-item {
+        border-right: 0
+    }
+
+}
+
+@media screen and (max-width:1090px) {
+
+    .navbar .container-fluid form {
+        display: none !important;
+    }
+
+    .footer .bottom-footer .row .info {
+        text-align: center;
+
+    }
+
+    .lukani-store .title {
+        padding: 0 200px;
+    }
+}
+
+@media screen and (max-width:1050px) {
+
+
+    .header .carousel .carousel-inner .hero-contant>span {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .header .carousel .carousel-inner .hero-contant>h1 {
+        font-size: 40px;
+        width: 400px;
+        line-height: 50px;
+    }
+
+    .header .carousel .carousel-inner .hero-contant>p {
+        font-size: 17px;
+    }
+
+    .header .carousel .carousel-inner .hero-contant .discover-btn {
+        font-size: 11px;
+        padding: 12px 30px;
+        width: 150px;
+
+    }
+
+    .getOffer .title h2 {
+        font-size: 25px;
+    }
+
+    .customers-testimonials .title h2 {
+        font-size: 25px;
+    }
+
+    .customers-testimonials .testimonial_content {
+        font-size: 13px;
+        padding: 0 90px;
+
+    }
+}
+
+@media screen and (max-width:850px) {
+
+
+    .header .carousel .carousel-inner .hero-contant>span {
+        font-size: 12px;
+        margin-bottom: 25px;
+
+    }
+
+    .header .carousel .carousel-inner .hero-contant>h1 {
+        font-size: 30px;
+        width: 300px;
+        line-height: 35px;
+    }
+
+    .header .carousel .carousel-inner .hero-contant>p {
+        font-size: 14px;
+    }
+
+    .header .carousel .carousel-inner .hero-contant .discover-btn {
+        font-size: 9px;
+        padding: 9px 20px;
+        width: 110px;
+
+    }
+
+    .lukani-store .title {
+        padding: 0 150px;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .lukani-store .title {
+        padding: 0 100px;
+    }
+
+    .shipping .shipping-item-first-item {
+        border-right: 0
+    }
+
+
+
+}
+
+@media screen and (max-width:700px) {
+
+
+    .header .carousel .carousel-inner .hero-contant>span {
+        font-size: 8px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+
+    }
+
+    .header .carousel .carousel-inner .hero-contant>h1 {
+        font-size: 20px;
+        width: 200px;
+        line-height: 25px;
+    }
+
+    .header .carousel .carousel-inner .hero-contant>p {
+        font-size: 11px;
+    }
+
+    .header .carousel .carousel-inner .hero-contant .discover-btn {
+        font-size: 7px;
+        padding: 5px 10px;
+        width: 75px;
+
+    }
+
+    .header .carousel .carousel-control-prev,
+    .header .carousel .carousel-control-next {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:560px) {
+    .lukani-store .title {
+        padding: 0 50px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+
+}

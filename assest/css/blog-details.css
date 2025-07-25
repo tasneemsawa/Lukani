@@ -1,0 +1,159 @@
+.blog-view .blog-meta  h3{
+font-size: 30px;}
+
+.blog-view .blog-meta  a{
+    color:var(--mainColor);
+}
+
+.blog-view .blog-post  .quote-block {
+    background-color: #f8f9fa;
+    border-left: 4px solid var(--mainColor);
+    margin: 30px 0;
+    font-style: italic;
+}
+
+.blog-view  .blog-post .tags-share-section{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.blog-view  .blog-post .share-btn {
+    background-color: #e6e6e6;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+
+}
+
+.blog-view  .blog-post .share-btn:hover {
+    transform: scale(1.1) translateY(-2px);
+    color: white;
+    background-color: var(--mainColor);
+}
+
+/* related-posts-section */
+
+.related-posts-section .section-title {
+    font-size: 15px;
+    font-weight: 500;
+    color: #222222;
+}
+
+
+.related-posts-section .related-post-card {
+    transition: all 0.3s ease;
+}
+
+.related-posts-section .related-post-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.related-posts-section .post-image {
+    width: 100%;
+    height: 180px;
+    transition: transform 0.3s ease;
+}
+
+.related-posts-section .post-title {
+    font-size: 13px;
+    font-weight: 500;
+}
+.related-posts-section .post-title a {
+    transition: color 0.3s ease;
+}
+
+.related-posts-section .post-title a:hover {
+    color: var(--mainColor);
+}
+.related-posts-section .post-meta {
+    font-size:12px;
+    font-weight: 400;
+}
+
+
+/* related-posts-section */
+/* Comments */
+
+.Comments .comments-header {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.Comments .comment-avatar {
+    width: 70px;
+    height: 70px;
+}
+
+.Comments .comment-content{
+    font-size: 12px;
+    width: 69%;
+}
+
+
+.Comments  .comment-author {
+    font-weight: 500;
+}
+
+
+
+.Comments  .reply-btn {
+    background-color: #333333;
+    border-radius: 3px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    height: 35px;
+}
+
+.Comments .reply-btn:hover {
+    background-color: var(--mainColor);
+    transform: translateY(-2px);
+}
+
+.Comments .comment-reply-item .comment-content{
+    font-size: 12px;
+    width: 66%;
+}
+
+.Comments .comment-reply-item{
+    margin-left: 80px;
+}
+/* Comments */
+/* leave-reply */
+.leave-reply .form-title {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.leave-reply {
+    font-size: 13px;
+}
+
+
+.leave-reply  .form-control {
+    border-radius: 0;
+}
+.leave-reply .form-label{
+    font-weight: 500;
+
+}
+
+
+.leave-reply  .submit-btn {
+    background-color: #333333;
+    border-radius: 3px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    height: 35px;
+}
+
+.leave-reply .submit-btn:hover {
+    background-color: var(--mainColor);
+    transform: translateY(-2px);
+}
+
+/* leave-reply */

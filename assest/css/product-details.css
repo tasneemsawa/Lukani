@@ -1,0 +1,130 @@
+
+/* product-details */
+
+.product-details .color a span {
+    width: 30px;
+    height: 30px;
+
+}
+
+
+
+.product-details .color a span {
+    width: 30px;
+    height: 30px;
+
+}
+
+
+
+.product-details .quantity-number button {
+    height: 35px;
+    background-color: #79a206;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+.product-details .social  ul li a{
+    background-color: #3B5999;
+    color: #ffffff;
+    padding: 4px 8px;
+    border-radius: 3px;
+    text-transform: capitalize;
+
+}
+.product-details .social .facebook {
+    background-color: #3B5999;
+
+}
+
+.product-details .social .twitter {
+    background-color: #1DA1F2;
+}
+
+.product-details .social .pinterest {
+    background-color: #CB2028;
+}
+
+.product-details .social .google-plus {
+    background-color: #fe6d4c;
+}
+
+.product-details .social .linkedin {
+    background-color: #010103;
+}
+/* product-details */
+
+/* product-info */
+
+
+.product-info .nav a:hover{
+    color:black;
+}
+.product-info .tab-content .product_d_table th{
+    width: 30%;
+}
+
+
+
+
+.product-info .speech-bubble {
+    position: relative;
+    background-color: #fff;
+    border: 0.5px solid #dee2e6; /* Bootstrap border color */
+    border-radius: 8px;
+    padding: 15px;
+  }
+
+  .product-info .speech-bubble::before {
+
+    background: #fff;
+    border-bottom: 1px solid #e1e1e1;
+    border-left: 1px solid #e1e1e1;
+    content: '';
+    display: block;
+    height: 10px;
+    left: -6px;
+    position: absolute;
+    top: 10px;
+    transform: rotate(45deg);
+    width: 10px;
+
+  }
+
+
+
+  .product-info .review-avatar {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+  }
+
+  .product-info .review-content {
+    font-size: 18px;
+  }
+
+  .product-info .reviewForm textarea{
+
+    min-height: 120px;
+
+  }
+  .product-info  .submit-btn {
+    background-color: #222222;
+     color: white;
+     border-radius: 8px;
+     font-weight: 500;
+     cursor: pointer;
+     transition: all 0.2s ease;
+     text-transform: uppercase;
+     margin-top: 8px;
+ }
+ 
+ .product-info .submit-btn:hover {
+     background-color:var(--mainColor);
+     transform: translateY(-1px);
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+ 
+ 
+/* product-info */
+
