@@ -80,7 +80,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-md-2 col-2 py-4">
                         <div class="logo">
-                            <a href="#">
+                            <a href="./index.html">
                                 <img class="img-fluid logo-img" src="assest/image/puplic/logo.webp" alt="logo"> </a>
                         </div>
 
@@ -119,7 +119,7 @@
                                     <input type="text" class="form-control border-0" placeholder="Search product...">
 
                                     <!-- Search Icon -->
-                                    <button class="btn btn-white px-3" type="button">
+                                    <button class="btn btn-white  px-3" type="button">
                                         <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
                                             viewBox="0 0 512 512">
                                             <path
@@ -139,13 +139,13 @@
                             </div>
                             <div class="header-actions col-lg-3 col-md-12 col-sm-12 border-end border-start py-4 ">
                                 <div class=" d-flex justify-content-center gap-4 ms-3 me-3 align-items-center	">
-                                    <div> <a href="#"><svg class="specialBlack" xmlns="http://www.w3.org/2000/svg"
+                                    <div> <a href="./login.html"><svg class="specialBlack" xmlns="http://www.w3.org/2000/svg"
                                                 height="24" width="24" viewBox="0 0 448 512">
                                                 <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                                                 <path
                                                     d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464l349.5 0c-8.9-63.3-63.3-112-129-112l-91.4 0c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3z" />
                                             </svg></a></div>
-                                    <div> <a href="./login.html"> <svg class="specialBlack"
+                                    <div> <a href="./wishlist.html"> <svg class="specialBlack"
                                                 xmlns="http://www.w3.org/2000/svg" height="24" width="24"
                                                 viewBox="0 0 512 512">
                                                 <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
@@ -189,8 +189,8 @@
             </div>
 
         </div>
-        <div class="bottom-header ">
-            <nav class="navbar navbar-expand-lg  border-bottom  w-100 mb-1">
+        <div class="bottom-header py-3">
+            <nav class="navbar navbar-expand-lg    w-100 mb-1">
                 <div class="container d-block py-2">
                     <div class="row justify-content-between">
 
@@ -213,31 +213,50 @@
                         </div>
 
                         <!-- Main Menu -->
-                        <div class="collapse navbar-collapse col-lg-4 col-md-5 border-start"
+                        <div class="collapse navbar-collapse col-lg-5 col-md-5 border-start"
                             id="navbarSupportedContent">
                             <ul class="support-content navbar-nav  align-items-center ">
                                 <li class="nav-item me-4">
-                                    <a class="nav-link " aria-current="page" href="#">HOME</a>
+                                    <a class="nav-link " aria-current="page" href="./index.html">HOME</a>
                                 </li>
-
+<!-- 
                                 <li class="nav-item me-4">
                                     <a class="nav-link active" href="#">SHOP</a>
+                                </li> -->
+
+                                <li class="nav-item me-4 dropdown">
+                                    <a class="nav-link dropdown-toggle active" href="" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        SHOP
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="./shop.html">Shop</a></li>
+                                        <li><a class="dropdown-item" href="./cart.html">Cart</a></li>
+                                        <li><a class="dropdown-item" href="./wishlist.html">Wishlist</a></li>
+                                    </ul>
+                                </li>
+
+
+
+
+
+
+
+                                <li class="nav-item me-4">
+                                    <a class="nav-link" href="./blog.html">BLOG</a>
                                 </li>
                                 <li class="nav-item me-4">
-                                    <a class="nav-link" href="#">BLOG</a>
-                                </li>
-                                <li class="nav-item me-4">
-                                    <a class="nav-link" href="#">ABOUT</a>
+                                    <a class="nav-link text-uppercase" href="./login.html">Account</a>
                                 </li>
 
 
                                 <li class="nav-item me-4">
-                                    <a class="nav-link " href="#">CONTACT US</a>
+                                    <a class="nav-link" href="./contact-us.html">CONTACT US</a>
                                 </li>
                             </ul>
                         </div>
                         <!-- Call Support -->
-                        <div class="call-support col-lg-4 col-md-5 text-end ">
+                        <div class="call-support col-lg-3 col-md-5 text-end ">
                             <p>Call Support: <a class="text-dark" href="tel:0123456789">0123456789</a></p>
 
                         </div>
@@ -252,7 +271,7 @@
 
     <main>
 
-        <section class="Breadcrumb-div bg-light-gray mb-5">
+        <section class="Breadcrumb-div mb-5">
             <nav aria-label="breadcrumb ">
                 <div class="container">
                     <div class="row">
@@ -411,12 +430,12 @@
 
 
 
-        <section class="brand my-5">
+        <section class="brand py-5">
             <div class="container-fluid">
 
 
                 <div id="carouselExample2" class="carousel slide carousel-dark">
-                    <div class="carousel-inner mt-5">
+                    <div class="carousel-inner ">
                         <div class="carousel-item active  ">
 
                             <div class="row text-center">
@@ -508,8 +527,6 @@
 
 
 
-
-
     <footer class="footer mt-5">
 
         <div class="top-footer py-2">
@@ -533,9 +550,9 @@
                         <nav class="nav flex-column">
                             <a class="nav-link mt-2" href="#">About Us</a>
                             <a class="nav-link" href="#">Checkout</a>
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="./contact-us.html">Contact</a>
                             <a class="nav-link " href="#">Frequently Questions</a>
-                            <a class="nav-link " href="#">Wishlist</a>
+                            <a class="nav-link " href="./wishlist.html">Wishlist</a>
 
                         </nav>
 
@@ -606,11 +623,11 @@
                         <h3 class="mb-4 text-uppercase"> <span class="underline-header pb-2"> My A</span>count</h3>
 
                         <nav class="nav flex-column">
-                            <a class="nav-link mt-2" href="#">My Account</a>
-                            <a class="nav-link" href="#">Contact</a>
-                            <a class="nav-link" href="#">Shopping cart</a>
+                            <a class="nav-link mt-2" href="./login.html">My Account</a>
+                            <a class="nav-link" href="./contact-us.html">Contact</a>
+                            <a class="nav-link" href="./cart.html">Shopping cart</a>
                             <a class="nav-link " href="#">Checkout</a>
-                            <a class="nav-link " href="#">Shop</a>
+                            <a class="nav-link " href="./shop.html">Shop</a>
                             <a class="nav-link " href="#">Order History</a>
                         </nav>
 
@@ -663,6 +680,7 @@
             </div>
         </div>
     </footer>
+
 
 
     <script>

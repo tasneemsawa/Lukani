@@ -68,7 +68,12 @@ a:hover {
 .header .middle-header .category-btn {
     display: none;
 }
-
+.header .middle-header .search .btn:hover svg {
+    fill: var(--mainColor);
+}
+.header .middle-header .header-actions a:hover svg{
+    fill: var(--mainColor);
+}
 
 .header {
     position: relative;
@@ -112,7 +117,9 @@ a:hover {
     color: var(--mainColor) !important;
 
 }
-
+.Breadcrumb-div  {
+    background-color: #f0f0f0;
+}
 .Breadcrumb-div h3 {
     font-family: var(--secondaryFont);
 }
@@ -220,8 +227,9 @@ a:hover {
     display: block;
 }
 
-
-
+.shop .products .product-list .card .card-action li a:hover svg{
+    fill: var(--mainColor);
+}
 
 
 
@@ -288,8 +296,11 @@ a:hover {
     color: var(--mainColor) !important;
 }
 
-
-.form-range::-webkit-slider-thumb {
+.shop .right-sidebar .price-filter button:hover {
+    background-color: var(--mainColor);
+    border: none;
+}
+.shop .right-sidebar .form-range::-webkit-slider-thumb {
     background-color: #79a206;
     border: none;
 }
@@ -323,6 +334,9 @@ a:hover {
 .shop .right-sidebar .accordion .accordion-button:hover,
 .shop .right-sidebar .compare-product a:hover i{
     color: var(--mainColor) !important;
+}
+.shop .right-sidebar .compare-product:hover{
+    transform: translateY(-4px);
 }
 .shop .right-sidebar .compare-product .new-price{
 color: var(--mainColor);
