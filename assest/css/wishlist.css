@@ -63,12 +63,13 @@ color: var(--mainColor);
 
 .wishlist  .add-cart {
     background-color: var(--mainColor);
-
+    display: block;
     padding: 10px 20px;
     font-size: 12px;
     font-weight: 500;
     border-radius: 4px;
     color: #ffffff;
+    width: 120px;
 }
 
 .wishlist  .add-cart:hover {
