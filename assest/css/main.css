@@ -53,13 +53,148 @@ span {
 }
 
 /* ------- header ------- */
+
+/* -------offcanvas------- */
+.header .offcanvas{
+    width: 280px;
+}
+.header  .offcanvas-header {
+    background: #f8f9fa;
+    padding: 15px 20px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+
+.header  .offcanvas-body .promo-text {
+    font-size: 12px;
+}
+.header .offcanvas-body .dropdown-menu a:hover {
+    background-color: transparent;
+    color: var(--mainColor);
+}
+.header .offcanvas-body .dropdown a {
+    font-size: 13px;
+}
+
+/* Search section */
+
+.header .offcanvas-body  .search-input {
+    position: relative;
+}
+
+.header .offcanvas-body  .search-input input {
+    width: 100%;
+    padding: 10px 40px 10px 15px;
+    font-size: 14px;
+}
+
+.header .offcanvas-body .search-input .search-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    fill: #666;
+}
+
+.header .offcanvas-body  .support-section .support-text {
+    font-size: 14px;
+}
+.header .offcanvas-body  .support-section .support-text a:hover {
+color: var(--mainColor);}
+
+
+.header .offcanvas-body .nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header .offcanvas-body .nav-menu li {
+    border-bottom: 1px solid #eee;
+}
+
+
+.header .offcanvas-body  .nav-menu a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    font-size: 14px;
+
+}
+
+.header .offcanvas-body .nav-menu a:hover {
+    color: var(--mainColor);
+}
+.header .offcanvas-body  .email-section  {
+    font-size: 14px;
+}
+.header .offcanvas-body  .email-section a:hover  {
+    color: var(--mainColor);
+}
+
+
+
+
+.header .offcanvas-body .share-btn {
+    background-color: #e6e6e6;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    font-size: 12px;
+    color: #ffffff;
+
+}
+.header  .offcanvas-body .share-btn:hover {
+    background-color: var(--mainColor)
+
+}
+.header  .offcanvas-body .facebook {
+    background-color: #3B5999;
+
+}
+
+.header  .offcanvas-body .twitter {
+    background-color: #1DA1F2;
+}
+
+.header  .offcanvas-body .pinterest {
+    background-color: #CB2028;
+}
+
+.header  .offcanvas-body .google-plus {
+    background-color: #fe6d4c;
+}
+
+.header  .offcanvas-body .linkedin {
+    background-color: #010103;
+}
+/* -------offcanvas------- */
 .navbar {
     position: absolute;
     z-index: 9;
     background: none;
 
 }
+.navbar .btn.navbar-toggler:focus{
+    border: 0;
+    box-shadow: none;
 
+}
+
+.navbar .offcanvas.navbar-toggler:focus{
+    border: 0;
+    box-shadow: none;
+
+}
 .navbar .navbar-nav a {
     font-size: 13px;
     font-weight: 500;

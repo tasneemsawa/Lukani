@@ -149,7 +149,7 @@
                                                 <path
                                                     d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z" />
                                             </svg></a></div>
-                                    <div class="notification"> <a href="#"> <svg xmlns="http://www.w3.org/2000/svg"
+                                            <div class="notification"> <a href="./cart.html"> <svg xmlns="http://www.w3.org/2000/svg"
                                                 height="24" width="24" viewBox="0 0 448 512">
                                                 <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                                                 <path
@@ -169,18 +169,150 @@
                                     d="M0 96c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zm0 160c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zm0 160c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32z" />
                             </svg> </button>
 
-                        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1"
-                            id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-                            <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling
-                                </h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                                    aria-label="Close"></button>
+                            <div class="offcanvas offcanvas-start navbar-toggler border-0" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                                <div class="offcanvas-header p-0 ">
+                                    <!-- Promo Banner -->
+                                 
+                                        <button type="button" class="btn-close position-absolute top-0 end-0 m-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                
+                                <div class="offcanvas-body mt-4 px-0">
+                                    <p class="promo-text text-center">Free Delivery: Take advantage of our time to save event</p>
+        
+                                    <!-- Currency and Language Settings -->
+                                    <div class="ul d-flex justify-content-center ">
+                                        <li class="currency">
+                                            <div class="dropdown ">
+                                                <a class="btn btn-secondary dropdown-toggle border-0 bg-transparent text-dark-emphasis"
+                                                    href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    USD
+                                                </a>
+            
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">EUR</a></li>
+                                                    <li><a class="dropdown-item" href="#">GPB</a></li>
+                                                    <li><a class="dropdown-item" href="#">RUP</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="language">
+                                            <div class="dropdown ">
+                                                <a class="btn btn-secondary dropdown-toggle border-0 bg-transparent text-dark-emphasis"
+                                                    href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    English
+                                                </a>
+            
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">French</a></li>
+                                                    <li><a class="dropdown-item" href="#">Spanish</a></li>
+                                                    <li><a class="dropdown-item" href="#">Russian</a></li>
+                                                </ul>
+                                            </div>
+            
+                                        </li>
+                                    </div>
+            
+                                    <!-- Search Section -->
+                                    <div class="search-section mt-3">
+                                        <div class="search-input">
+                                            <input type="text" placeholder="Search product..." class="border">
+                                            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 512 512">
+                                                <path
+                                                    d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                                            </svg>
+                                                </div>
+                                    </div>
+                        
+                                    <!-- Categories Dropdown -->
+                                    <div class="categories-section mt-3 px-5">
+        
+                                        <div class="dropdown p-2">
+                                            <a class="btn btn-secondary dropdown-toggle border bg-transparent text-dark-emphasis  rounded-0 px-3"
+                                                href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                All Categories
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">All Categories</a></li>
+                                                <li><a class="dropdown-item" href="#">Accessories</a></li>
+                                                <li><a class="dropdown-item" href="#">Accessories &amp; More</a></li>
+                                                <li><a class="dropdown-item" href="#">Butters &amp; Eggs</a></li>
+                                                <li><a class="dropdown-item" href="#">Camera &amp; Video</a></li>
+                                                <li><a class="dropdown-item" href="#">Mornitors</a></li>
+                                                <li><a class="dropdown-item" href="#">Tablets</a></li>
+                                                <li><a class="dropdown-item" href="#">Laptops</a></li>
+                                                <li><a class="dropdown-item" href="#">Handbags</a></li>
+                                                <li><a class="dropdown-item" href="#">Headphone &amp; Speaker</a></li>
+        
+        
+                                            </ul>
+                                        </div>
+        
+                                    </div>
+                        
+                                    <!-- Support Info -->
+                                    <div class="support-section text-center  my-3">
+                                        <!-- <p class="support-text">Call Support: 0123456789</p> -->
+                                        <p class="support-text">Call Support: <a  href="tel:0123456789">0123456789</a></p>
+        
+                                    </div>
+                        
+                                    <!-- Navigation Menu -->
+                                    <ul class="nav-menu mb-4">
+                                        <li class="active">
+                                            <a href="#">
+                                                <span>Home</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="./shop.html">
+                                                <span>Shop</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="./blog.html">
+                                                <span>Blog</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="./login.html">
+                                                <span>My Account</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="./contact-us.html">
+                                                <span>Contact us</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+        
+                                    <!-- email Info -->
+                                    <div class="email-section text-center  my-4">
+                                        <a href="#"><i class="fa-regular fa-envelope"></i> demo@example.com</a>
+                                    </div>
+                                    <div class="share-buttons d-flex gap-2 justify-content-center my-4">
+                                        <a href="#" class="share-btn d-flex facebook" title="Share on Facebook">
+                                            <i class="fab fa-facebook-f "></i>
+                                        </a>
+                                        <a href="#" class="share-btn d-flex twitter" title="Share on Twitter">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                        <a href="#" class="share-btn d-flex pinterest" title="Share on Pinterest">
+                                            <i class="fa-brands fa-pinterest" ></i>
+                                        </a>
+                                        <a href="#" class="share-btn d-flex google-plus" title="Share on Google+">
+                                            <i class="fab fa-google-plus-g"></i>
+                                        </a>
+                                        <a href="#" class="share-btn d-flex linkedin" title="Share on LinkedIn">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                    </div>
+        
+        
+        
+                                </div>
+             
                             </div>
-                            <div class="offcanvas-body">
-                                <p>Try scrolling the rest of the page to see this option in action.</p>
-                            </div>
-                        </div>
+        
                     </div>
                 </div>
             </div>
